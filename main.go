@@ -17,6 +17,10 @@ func main() {
 	// fmt.Println(isSubsequence("abc", "ahbgdc"))
 
 	//? BestTimeToBuyAndSellStock
-	tab := []int{7, 6, 4, 3, 1}
-	fmt.Println(maxProfit(tab))
+	// tab := []int{7, 6, 4, 3, 1}
+	// fmt.Println(maxProfit(tab))
+
+	//? func LongestCommonPrefix
+	tab := []string{"flower", "flow", "flight"}
+	fmt.Println(longestCommonPrefix(tab))
 }
