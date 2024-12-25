@@ -21,6 +21,10 @@ func main() {
 	// fmt.Println(maxProfit(tab))
 
 	//? func LongestCommonPrefix
-	tab := []string{"flower", "flow", "flight"}
-	fmt.Println(longestCommonPrefix(tab))
+	// tab := []string{"flower", "flow", "flight"}
+	// fmt.Println(longestCommonPrefix(tab))
+
+	//? SummaryRanges
+	tab := []int{0, 1, 2, 4, 5, 7}
+	fmt.Println(summaryRanges(tab))
 }
