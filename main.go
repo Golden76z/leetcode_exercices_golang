@@ -25,6 +25,10 @@ func main() {
 	// fmt.Println(longestCommonPrefix(tab))
 
 	//? SummaryRanges
-	tab := []int{0, 1, 2, 4, 5, 7}
-	fmt.Println(summaryRanges(tab))
+	// tab := []int{0, 1, 2, 4, 5, 7}
+	// fmt.Println(summaryRanges(tab))
+
+	//? ProductExceptSelf
+	tab := []int{1, 2, 3, 4}
+	fmt.Println(productExceptSelf(tab))
 }
